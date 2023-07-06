@@ -1,0 +1,153 @@
+html {
+    font-size: 10px;
+}
+
+/* .search {
+    width: 
+} */
+
+.top {
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+.logo {
+    margin: 0 20%;
+}
+.logo h1 {
+    
+    font-size: 4rem;
+    color: #03CF5D;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin: 8px;
+}
+
+
+.menu_icon {
+    float: left;
+}
+.menu_icon div {
+    width: 18px;
+    height: 1px;
+    background-color: black;
+    margin: 5px 5px;
+}
+
+.side_menu {
+    float: right;
+    display: flex; /* Change display to flex */
+    justify-content: center; /* Horizontally center align items */
+    align-items: center; /* Vertically center align items */
+}
+
+.side {
+    color: black;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.side_menu img {
+    margin: 6px;
+    border: 0.5px solid grey;
+    background-color: rgb(212, 201, 201);
+    padding: 3px;
+}
+
+.side {
+    padding: 2px;
+}
+
+
+#search {
+    margin: 0 0 100px 0;
+}
+.sch {
+    padding: 0 20px;
+    max-width: 488px;
+    margin: 0 auto;
+    display: block;
+}
+
+.sch_box {
+    height: 52px;
+    padding: 0 1px;
+    border: 1.2px solid #03CF5D;
+    border-radius: 3px;
+    display: flex;
+}
+
+.sch_input {
+    flex: 1;
+    height: 100%;
+    padding: 0 80px 0 5px;
+    margin-right: 1px;
+}
+
+.sch_input input {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border: 20px;
+    padding: 14px 10px;
+    font-size: 15px;
+    color: rgba(227, 219, 219, 0.701);
+    background-color: transparent;
+    box-sizing: content-box;
+}
+
+.sch_region {
+    padding: 5px;
+}
+
+.sch_image {
+    position: relative;
+    float: left;
+    display: block;
+    margin: 5px;
+}
+
+#main_menu {
+    max-width: 488px;
+    display:block;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 0 20px;
+    /* list-style: none; */
+}
+
+#main_menu li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+.main {
+    list-style: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(189, 174, 174);
+    font-size: 11px;
+}
+
+
+.main img {
+    padding: 15px;
+    border: 2px solid white;
+    background-color:aliceblue;
+    border-radius: 18px;
+}
+
+
+
+.last_menu li {
+    list-style: none;
+}
+
+.last {
+    width: 500px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+}
