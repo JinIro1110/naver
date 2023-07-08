@@ -1,10 +1,11 @@
 html {
     font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* .search {
-    width: 
-} */
+body {
+    background: linear-gradient(white, aliceblue);
+}
 
 .top {
     width: 100%;
@@ -19,7 +20,6 @@ html {
     font-size: 4rem;
     color: #03CF5D;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
     margin: 8px;
 }
@@ -37,9 +37,9 @@ html {
 
 .side_menu {
     float: right;
-    display: flex; /* Change display to flex */
-    justify-content: center; /* Horizontally center align items */
-    align-items: center; /* Vertically center align items */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .side {
@@ -47,7 +47,6 @@ html {
     text-decoration: underline;
     font-size: 17px;
     font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .side_menu img {
     margin: 6px;
@@ -62,7 +61,7 @@ html {
 
 
 #search {
-    margin: 0 0 100px 0;
+    margin: 0 0 120px 0;
 }
 .sch {
     padding: 0 20px;
@@ -112,10 +111,8 @@ html {
 #main_menu {
     max-width: 488px;
     display:block;
-    /* align-items: center; */
     margin: 0 auto;
     padding: 0 20px;
-    /* list-style: none; */
 }
 
 #main_menu li {
@@ -125,29 +122,202 @@ html {
 .main {
     list-style: none;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(189, 174, 174);
     font-size: 11px;
 }
 
-
 .main img {
     padding: 15px;
-    border: 2px solid white;
+    border: 2px solid transparent;
     background-color:aliceblue;
     border-radius: 18px;
 }
 
-
-
-.last_menu li {
-    list-style: none;
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.last {
+.info_wrap a:first-child:before {
+    content: "";
+}
+
+.info_wrap a::before {
+    content: "|";
+}
+
+.weather {
+    height: 100%;
+    margin: 0 20%;
+}
+
+.menu1 {
     width: 500px;
-    display: inline-block;
+    height: 80px;
+    border: 1px solid transparent;
+    background-color: white;
     margin: 0 auto;
+}
+
+.today {
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.today_weather {
+    margin-left: 10px;
+}
+
+.today_weather h2 {
+    margin: 0;
+}
+
+.today_weather p {
+    margin: 0;
+}
+
+.other {
+    margin-top: 15px;
+    display: flex;
+    float: right;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+footer {
+    margin-top: 50px;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+.last_menu {
+    font-size: 12px;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info_wrap {
+    margin: 5px;
+}
+.last_logo {
+    margin-top: 10px;
+}
+
+.last_logo img {
+    display: block;
     margin: 0 auto;
+}
+
+.menu2 {
+    width: 500px;
+    height: 280px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: 5px auto;
+}
+
+.menu2_top {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu2_top span {
+    margin-left: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    width: 90%;
+    height: auto;
+    margin: 10px 20px 5px 20px;
+}
+.buttons button {
+    min-width: 10px;
+    height: 20%;
+    border: 1px solid transparent;
+    font-size: 15px;
+    text-align: center;
+    background-color: aliceblue;
+    color:silver;
+    padding: 10px;
+}
+
+.buttons button:active {
+    background-color:royalblue;
+    color: white;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+}
+
+
+.week {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 5px;
+    padding-top: 20px;
+}
+
+.week > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.week > div > span {
+    margin-bottom: 10px;
+}
+
+.day {
+    color: grey;
+}
+
+#today {
+    color: white;
+    background-color: grey;
+    border: 1px solid transparent;
+    padding:2px 4px;
+    font-size: 12px;
+    border-radius: 30%;
+}
+
+.corona {
+    width: 500px;
+    height: auto;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: auto;
+}
+
+.corona > div {
+    
+}
+
+.anniversary {
+    width: 500px;
+    height: auto;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: auto;
 }
